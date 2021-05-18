@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background: #fcfcfc;
+}
+html h2,
+body h2 {
+  font-size: 2.25rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+}
+html h4,
+body h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+}
+html h4.blue,
+body h4.blue {
+  color: #00999f;
+  padding: 0.35rem;
+  background: #e3feff;
+}
+html h4.red,
+body h4.red {
+  color: #f9453a;
+  padding: 0.35rem;
+  background: #fff0ef;
+}
+html h4.orange,
+body h4.orange {
+  color: black;
+  padding: 0.35rem;
+  background: #fff5e5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.partner-row {
+  padding: 1.5rem 0 0 0;
+}
+.partner-row img {
+  width: 100px;
+}
+
+.content-container {
+  padding: 0rem 4rem 4rem 4rem;
+}
+
+.company-row {
+  padding: 2rem 1.5rem;
+}
+.company-row img {
+  width: 250px;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 0 0;
+}
+
+.standard-card {
+  cursor: pointer;
+  background: white;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  transition: 500ms;
+}
+.standard-card:hover {
+  transform: translate(-10px, -10px);
+  -webkit-box-shadow: 7px 5px 24px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 7px 5px 24px 0px rgba(0, 0, 0, 0.4);
+}
+
+.outline-card {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  background: white;
+  transition: 1s;
+}
+.outline-card h2 {
+  transition: 1s;
+}
+.outline-card:hover {
+  background: #f9453a;
+}
+.outline-card:hover h2 {
+  color: white;
+}
+
+.shift-up-card {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  background: white;
+  transition: 500ms;
+}
+.shift-up-card:hover {
+  transform: translate(0, -19px);
+  -webkit-box-shadow: 0px 9px 14px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 9px 14px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=style.css.map */
